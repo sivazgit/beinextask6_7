@@ -1,0 +1,35 @@
+.label-college{
+    padding-top: $spacer-3;
+
+    .fixedcontent{
+        width: 1120px;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: space-between;
+
+        p{
+            color: $color-teritiary;
+            padding: $spacer-3;
+        }
+        
+        h1{
+            color: $color-primary;
+        }
+    }
+
+    .text1{
+       display:inline;
+    }
+
+    .text2{
+        display: inline;
+        padding-top: 10px;
+
+    }
+
+
+
+
+
+    
+}

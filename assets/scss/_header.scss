@@ -1,0 +1,56 @@
+.header{
+    background-color: $color-white;
+    padding: $spacer-1;
+
+    .wrapper{
+        @include d-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .icons li{
+        display: inline;
+    }
+
+    .icons li a{
+        color: $color-primary;
+        text-decoration: none;
+    }
+    .icons li p{
+        display: inline;
+        color: $color-teritiary;
+    }
+    .headlinks li{
+        display: inline;
+    }
+
+    .headlinks li a{
+        color: $color-teritiary;
+        text-decoration: none;
+    }
+
+    .btn-primary{
+        background-color: $color-primary;
+        color: $color-white;
+        font-size: $font-1;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+@include tablet{
+    .header{
+        .wrapper{
+            display: block;
+        }
+    }
+}
+
+@include mobile{
+    .header{
+        .wrapper{
+            display:block;
+        }
+    }
+}

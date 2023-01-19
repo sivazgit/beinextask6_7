@@ -1,0 +1,14 @@
+.footer1{
+    background-color:#e9e9e9 ;
+    padding-top: 50px;
+
+    #ftrrow1 div{
+        padding-left: 50px;
+        color: $color-secondary;
+        
+        .phead{
+            color: $color-primary;
+            font-weight: bold;
+        }
+    }
+}

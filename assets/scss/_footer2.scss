@@ -1,0 +1,40 @@
+.ftrlinks {
+    width: 100%;
+    background-color: $color-primary;
+    color:$color-white;
+
+
+    a {
+        color: white;
+        font-size: 13px;
+        font-weight: 400;
+        text-decoration: none;
+        padding-bottom: 20px;
+        display: block;
+    
+    }
+
+    a:hover {
+        text-decoration: underline;
+
+    }
+
+    p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    
+}
+
+.ftrlinks div {
+    text-align: left;
+}
+.footers {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+

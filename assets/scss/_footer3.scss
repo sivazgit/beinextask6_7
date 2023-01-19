@@ -1,0 +1,43 @@
+.footer3 {
+    background-color: #150d2d;
+    color:$color-white;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    .links3 a {
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+        padding: 0px 30px;
+
+       &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .social {
+        padding: 30px;
+
+
+        a {
+            font-size: 19px;
+            color: white;
+            padding: 0px 8px;
+
+            :hover {
+                color: $color-dot;
+            }
+        }
+    }
+
+
+
+
+
+
+}
+
+

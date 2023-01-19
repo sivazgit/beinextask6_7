@@ -1,0 +1,32 @@
+.navbar{
+    padding: $spacer-0;
+
+   .nav-sec{
+    @include d-flex;
+    justify-content:space-between;
+}
+
+.image{
+    float:left;
+    padding-right: 150px;
+}
+
+.navbar ul{
+    float: right;
+}
+
+
+.toplinks li{
+    display: inline;
+    padding-left: 22px;
+   
+}
+
+.toplinks li a{
+    color: $color-secondary;
+    text-decoration: none;
+}
+
+}
+
+
