@@ -190,14 +190,6 @@
   display: flex;
   justify-content: space-between; }
 
-.bordersec {
-  border-left: 1px solid grey;
-  padding-left: 30px;
-  display: flex;
-  align-items: center; }
-  .bordersec span {
-    margin-right: 15px; }
-
 .footer3 {
   background-color: #150d2d;
   color: #fff;
